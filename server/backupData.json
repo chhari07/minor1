@@ -1,0 +1,12 @@
+{
+  "backupImages": [
+    {
+      "title": "Backup Image 1",
+      "imageUrl": "/path/to/backup-image1.jpg"
+    },
+    {
+      "title": "Backup Image 2",
+      "imageUrl": "/path/to/backup-image2.jpg"
+    }
+  ]
+}

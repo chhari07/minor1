@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Ai image generating mern app",
+"type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "ai image generating",
+    "ai",
+    "dalle",
+    "openai"
+  ],
+  "author": "mohammed shabin k",
+  "license": "ISC",
+  "engines": {
+    "node": "14.20.1"
+  },
+  "dependencies": {
+    "@tensorflow-models/mobilenet": "^2.1.1",
+    "@tensorflow/tfjs-node": "^4.21.0",
+    "cloudinary": "^1.35.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^7.8.2",
+    "nodemon": "^2.0.22",
+    "openai": "^3.2.1"
+  }
+}
